@@ -2,8 +2,8 @@ require_relative 'boot'
 
 require 'rails/all'
 require 'redis'
-require 'chat_backend'
-config.middleware.use ChatDemo::ChatBackend
+# require 'chat_backend'
+# config.middleware.use ChatDemo::ChatBackend
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
